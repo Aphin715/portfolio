@@ -1,0 +1,44 @@
+
+ <div class="containers">
+
+    <p class="github">You can view all of my work on Github <a href="http://www.github.com/aphin715"> here </a></p>
+    <div class ="tech">
+      <%= link_to image_tag('newcomedyhub.png', alt: "Comedy Hub",:size => "300x350",:class => "pictures"), "http://comedy-hub.herokuapp.com/comedy_hub" %>
+      <h2> The Comedy Hub</h2>
+        <ul>
+          <li>View comedians preforming in New York City</li>
+          <li>Built using Rails with a Postgresql database</li>
+          <li>Used TDD, Rspec and Capybara</li>
+          <li>Implemented Javascript and jQuery</li>
+          <li>Files upload to AWS S3</li>
+          <li>Used Bootstrap for responsive design</li>
+        </ul>
+      </div>
+      <div class ="tech">
+        <%= link_to image_tag('gem-reviewer.png', alt: "Gem Reviewer",:size => "300x350",:class => "pictures"), "http://gem-reviewer.herokuapp.com/" %>
+      <h2>Gem Reviewer</h2>
+      <ul>
+          <li>Users can review and comment on Rails gems</li>
+          <li>Built using Rails with a SQLite database</li>
+          <li>Used TDD, Rspec and Capybara</li>
+          <li>Used Foundation for responsive design</li>
+      </ul>
+    </div>
+    <div class="techy">
+      <%= link_to image_tag('BlogLogBlaw.png', alt: "Gem Reviewer",:size => "300x350",:class => "pictures"), "http://bloglogblaw.com" %>
+      <h2>Blog LogBlaw</h2>
+        <ul>
+          <li>Built using Middleman</li>
+        </ul>
+      </div>
+
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </div>
+  </body>
+</html>
