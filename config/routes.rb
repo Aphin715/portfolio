@@ -1,4 +1,6 @@
 Portfolio::Application.routes.draw do
+  resources :photos
+
  root 'abouts#index'
 
   resources :resumes
